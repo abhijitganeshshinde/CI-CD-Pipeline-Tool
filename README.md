@@ -25,7 +25,7 @@ Before running this script, ensure you have:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/abhijitganeshshinde/CICD-Project.git
+   git clone https://github.com/abhijitganeshshinde/CI-CD-Pipeline-Tool.git
    cd CICD-Project
   
 2. Run the setup script with sudo:
