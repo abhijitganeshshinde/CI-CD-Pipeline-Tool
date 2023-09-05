@@ -1,0 +1,10 @@
+{
+    "GitHub":
+    {
+        "baseurl":"https://api.github.com/",
+        "check_repository_exists":"repos/{repository_owner}/{repository_name}",
+        "check_branch_exists":"repos/{repository_owner}/{repository_name}/branches/{_branch_name}",
+        "get_commit_sha":"repos/{repository_owner}/{repository_name}/commits?sha={_branch_name}",
+        "download_updated_code":"repos/{repository_owner}/{repository_name}/tarball/{_commit_sha}"
+    }
+}

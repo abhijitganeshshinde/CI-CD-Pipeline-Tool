@@ -1,0 +1,15 @@
+{
+    "RepositoriesDetail": [
+        {
+            "Access_Token": "",
+            "Repository_Owner": "",
+            "Repository_Name": "",
+            "CICD": [
+                {
+                    "Target_Branch": "",
+                    "Deployment_On": ""
+                }
+            ]
+        }
+    ]
+}

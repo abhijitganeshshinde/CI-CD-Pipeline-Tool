@@ -1,0 +1,20 @@
+{
+        "Nginx_Config_File_Location": "/etc/nginx/sites-available",
+        "Nginx_Config_File": "default",
+        "DeploymentDetails": [
+            {
+                "Repository_Name": "CICDPipelineForPython",
+                "Deploy": [
+                    {
+                        "Env": "prod",
+                        "Target_Branch": "main",
+                        "Location": "/var/www/prod",
+                        "FolderName": "hello",
+                        "Url": "prod-api-hello.com",
+                        "MainFile": "hello.py"
+                    }
+                ]
+            }
+           
+        ]
+    }
